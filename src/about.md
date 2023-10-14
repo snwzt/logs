@@ -10,7 +10,7 @@ I like testing out new or vintage technologies. I like playing old games and I a
 
 I'm not a big social media person, here are my socials:
 
-[github.com/slofl](https://github.com/slofl)
+[github.com/slofl](https://github.com/snowset)
 
 [slofl.groggy645@slmail.me](mailto:slofl.groggy645@slmail.me) *it's an alias*
 
