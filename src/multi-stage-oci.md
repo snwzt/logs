@@ -17,7 +17,7 @@ We can reduce the size of the image by removing unused packages. Let's say I nee
 
 There is another way that structures this process in much better way, multi stage builds.
 
-![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/m37qg40ky05dlwhi5mg8.png)
+![diagram](./assets/multi-stage-oci_1.png)
 
 Here, I wish to use my go program in container. But I don't need go package to run go program since it can be compiled to a binary file.
 
