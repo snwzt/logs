@@ -1,0 +1,6 @@
+[book]
+authors = ["slofl"]
+language = "en"
+multilingual = false
+src = "src"
+title = "slofl logs"
