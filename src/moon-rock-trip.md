@@ -64,32 +64,32 @@ I refuse to believe I was on a trip. I must have been kidnapped and sent to the 
 
 Probably this was the moment where a part of me said, HA GOTEM! Told you what you wanted was too good to be true, there will be crowd no matter where you go. Touch some grass dude, you should go out more. This had less crowd than the temple that's almost next to my house. 
 
-I waited for the queue. Huh, no one's cutting their lines, no one's fighting to go inside first? The priests are telling their families to get together as they are here to do rituals / take blessings of Lord Shiva, a moment that you should keep in your heart? Also he was telling people to not to gossip? Whoa, I was sure this was a dream. No nonsense of scamming money off of people, priest was actually giving people good life lessons? Absolutely gigachad and based. Also, absolutely based Lord Shiva's temple. No fancy decorations, built from stones, chants of mantras and the mountains, perfection! I will go there a thousand times and be happy. I've never been satisfied with temples, last one I liked was a year ago when we went to visit Mata Vaishno Devi. (Nope, I've been to Vridavan and Mathura, don't like any of them a bit.)
+I waited for the queue. Huh, no one's cutting their lines, no one's fighting to go inside first? The priests were helping families to get together in a queue because they are here to do rituals / take blessings of Lord Shiva, a moment that they should keep in your heart? Also they were telling people to not to gossip in the queue? Whoa, I was sure this was a dream. No scamming money off of people and priest was actually giving people good life lessons? Absolutely gigachad and based. Also, absolutely based Lord Shiva's temple. No fancy decorations, built from stones, chants of mantras and the mountains, perfection! I will go there a thousand times and be happy. I've never been satisfied with temples, last one I liked was a year ago when we went to visit Mata Vaishno Devi. (Nope, I've been to Vridavan and Mathura, don't like any of them a bit.)
 
-Though this was part of the panch kedar temples, I never felt that grand vibe from it. It almost felt like it was a part of the nature, like it's been there since the dawn of the time, the first bang in the void. 
+Though this was part of the panch kedar temples, I never had a feeling of an authority towering over me. It almost felt like it was a part of the nature,been there since the dawn of the time, the first bang in the void. 
 
 ![Moon Rock](./assets/moon-rock-trip_13.jpg)
 
-I don't know if I was hallucinating from hunger but this sure looks likes a prehistoric animal who decided to just pop up to me. It still does.
+I don't know if I was hallucinating from hunger but to me, this sure looks like a prehistoric animal who decided to just pop up. It still does.
 
 ![Moon Rock](./assets/moon-rock-trip_14.jpg)
 
 I never realised how high I was. I wasn't able to figure that out in dark. Everything was so silent back then, it felt so close.
 
-So, we came to Chopta, got our bags from Hotel. We were supposed to go back to Ukhimath, but then my Mom said, we do have a day to kill and Badrinath isn't that far. Going back isn't worth it either. We will probably get bus back to Haridwar from there easily. I was out of energy, but after eating lunch I said hell yeah and we went hopping around town to town on a taxi again.
+So, we came to Chopta, got our bags from Hotel. We were supposed to go back to Ukhimath, but my Mom said, we do have a day to kill and Badrinath isn't that far. Going back isn't worth it either. We will probably get bus back to Haridwar from there easily. So, we went hopping around town to town on a taxi again.
 
 ![Moon Rock](./assets/moon-rock-trip_15.jpg)
 
-Yeah, it was far. Again. After starting at 2 P.M. we were supposed to get there by 7-ish, but then traffic jams happened because some dude didn't know how to drive. Not our taxi guy tho. He was helpful. Helped us to get there, even helped us to get a good hotel for cheap. And yeah, as it was too late, we ended up staying at Joshimath, which was one of the best decisions ever for the trip. It was cheap, taxis to Badrinath were easy to find, food was good, and the temples were absolutely based. 
+Yeah, it was far. After starting at 2 P.M. we were supposed to get there by 7-ish, but then traffic jams happened because some dude didn't know how to drive. Not our taxi guy tho. He was helpful. Helped us to get there, even helped us to get a good hotel for cheap. As it was too late, we ended up staying at Joshimath, which was one of the best decisions ever for the trip. It was cheap, taxis to Badrinath were easy to find, food was good, and the temples were absolutely based. 
 
 Went to Badrinath the next day, I must say, my disappointment was immeasurable. My day was almost ruined. People were fighting for queue, for VIP tickets, for god knows what not. I said screw it and went back, to get my shoes. Mana Village, the last village of India (China border is about 20 Km after that) was about 3 Km by foot, and 5 Km or something by taxi. I insisted on walking there. I was walking amongst mountains, with river Alaknanda flowing on the right side, villages with potato farms and cows grazing grass on the left side. Badrinath wasn't my heaven, this was. I thought Badrinath was mid at first, but now I think of it, it sucks.
 
 ![Moon Rock](./assets/moon-rock-trip_16.jpg)
 
-Here we crossed to the Mana Village. We saw army camps too! We went to Vyasa's Cave and Lord Ganapati's temple. It is said Mahabharata was written here. They also say panch kedars were built by Pandavas. I don't know, I can't go back to verify, so I don't think about it and enjoy the present, keeping that moment safe in my heart, as the based priest of tungnath said. 
+Here we crossed to the Mana Village. We went to Vyasa's Cave and Lord Ganapati's temple. It is said Mahabharata was written here. They also say panch kedars were built by Pandavas. I don't know, I can't go back to verify, so I don't think about it and enjoy the present, keeping that moment safe in my heart, as the based priest of Tungnath said. 
 
 We came back to Joshimath, visited Shankaracharya's math (the hindi one, I don't know what math means in english, but it's not mathematics), this was the place where Adi Shankaracharya achieved enlightenment. There were mountains around the whole town. I sat outside and saw the sun going down. It was mesmerising. 
 
-We took the morning bus and I, the great traveller I am, starved myself whole day and lived off of soda, apparently that gave me enough energy to not pass out and didn't make me throw up on the bus. Don't underestimate that travel, it was like 14 hours of travel on a bus in the mountains, then we had to catch a train to Delhi from Haridwar. 
+We took the morning bus and I, the great traveller, starved myself whole day and lived off of soda, apparently that gave me enough energy to not pass out and didn't make me throw up on the bus. Don't underestimate that travel, it was like 14 hours of travel on a bus in the mountains, then we had to catch a train to Delhi from Haridwar. 
 
-I must say, this was probably the best birthday I ever had. I've never celebrated my birthday, it isn't really a tradition in my family. But we have been planning trips in birthdays since last year. And this was the best one in my life. Thank you Mom, Thank you Dad for making my birthday so awesome. This was sure an experience that I'd never want to forget. 
+I must say, this was probably the best birthday I ever had. I've never celebrated my birthday, it isn't really a tradition in my family. But we have been planning trips around birthdays since last year. And this was the best one in my life. Thank you Mom, Thank you Dad for making my birthday so awesome. This was sure an experience that I'd never want to forget. 
