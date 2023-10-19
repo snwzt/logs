@@ -62,11 +62,9 @@ I refuse to believe I was on a trip. I must have been kidnapped and sent to the 
 
 ![Moon Rock](./assets/moon-rock-trip_12.jpg)
 
-Probably this was the moment where a part of me said, HA GOTEM! Told you what you wanted was too good to be true, there will be crowd no matter where you go. Touch some grass dude, you should go out more. This had less crowd than the temple that's almost next to my house. 
+This was absolutely based and gigachad temple. Plain, built with stones and some minimal decoration. This place rocks.
 
-I waited for the queue. Huh, no one's cutting their lines, no one's fighting to go inside first? The priests were helping families to get together in a queue because they are here to do rituals / take blessings of Lord Shiva, a moment that they should keep in your heart? Also they were telling people to not to gossip in the queue? Whoa, I was sure this was a dream. No scamming money off of people and priest was actually giving people good life lessons? Absolutely gigachad and based. Also, absolutely based Lord Shiva's temple. No fancy decorations, built from stones, chants of mantras and the mountains, perfection! I will go there a thousand times and be happy. I've never been satisfied with temples, last one I liked was a year ago when we went to visit Mata Vaishno Devi. (Nope, I've been to Vridavan and Mathura, don't like any of them a bit.)
-
-Though this was part of the panch kedar temples, I never had a feeling of an authority towering over me. It almost felt like it was a part of the nature,been there since the dawn of the time, the first bang in the void. 
+Though this was part of the panch kedar temples, I never had a feeling of an authority towering over me. It felt like it was a part of the nature, been there forever.
 
 ![Moon Rock](./assets/moon-rock-trip_13.jpg)
 
@@ -86,10 +84,10 @@ Went to Badrinath the next day, I must say, my disappointment was immeasurable. 
 
 ![Moon Rock](./assets/moon-rock-trip_16.jpg)
 
-Here we crossed to the Mana Village. We went to Vyasa's Cave and Lord Ganapati's temple. It is said Mahabharata was written here. They also say panch kedars were built by Pandavas. I don't know, I can't go back to verify, so I don't think about it and enjoy the present, keeping that moment safe in my heart, as the based priest of Tungnath said. 
+Here we crossed to the Mana Village. We went to Vyasa's Cave and Lord Ganapati's temple. It is said Mahabharata was written here. They also say panch kedars were built by Pandavas.
 
 We came back to Joshimath, visited Shankaracharya's math (the hindi one, I don't know what math means in english, but it's not mathematics), this was the place where Adi Shankaracharya achieved enlightenment. There were mountains around the whole town. I sat outside and saw the sun going down. It was mesmerising. 
 
 We took the morning bus and I, the great traveller, starved myself whole day and lived off of soda, apparently that gave me enough energy to not pass out and didn't make me throw up on the bus. Don't underestimate that travel, it was like 14 hours of travel on a bus in the mountains, then we had to catch a train to Delhi from Haridwar. 
 
-I must say, this was probably the best birthday I ever had. I've never celebrated my birthday, it isn't really a tradition in my family. But we have been planning trips around birthdays since last year. And this was the best one in my life. Thank you Mom, Thank you Dad for making my birthday so awesome. This was sure an experience that I'd never want to forget. 
+I must say, this was probably the best birthday I ever had.
