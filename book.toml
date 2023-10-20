@@ -9,6 +9,7 @@ title = ""
 default-theme = "light"
 preferred-dark-theme = "coal"
 additional-css = ["custom.css"]
+no-section-label = true
 
 [output.html.print]
 enable = false
