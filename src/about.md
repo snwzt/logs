@@ -2,7 +2,7 @@
 
 I'm a student, currently studying Computer Science. 
 
-I like doing System Administration and I know some programming too. Lately, I have been learning some low level programming too.
+I like doing a little system administration and I know some programming too. Lately, I have been learning some low level programming too.
 
 Here, I will write about the things I've been learning, or my opinions around them. Hence the name, slofl logs.
 
