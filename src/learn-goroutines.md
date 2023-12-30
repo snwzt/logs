@@ -4,7 +4,7 @@ I learnt Go because I love how it packages everything nicely into small binary f
 
 I was fascinated by download accelerators, the tool which downloads files in parts concurrently then stiches them together. To make sense of goroutines better, I decided to write one.
 
-You can find the source code [here](https://github.com/snowset/ddacc-cli/).
+You can find the source code [here](https://github.com/snwzt/raccoon).
 
 I had certain requirements:
 - Stop downloads if the internet is cut off or the server doesn't respond
@@ -123,3 +123,5 @@ go func() {
 	close(closeChan)
 }()
 ```
+
+EDIT: I've made few changes in repository, looks much better now.
