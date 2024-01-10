@@ -1,0 +1,338 @@
+<!DOCTYPE HTML>
+<html lang="en" class="light" dir="ltr">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>I wrote a program to learn Goroutines</title>
+
+
+        <!-- Custom HTML head -->
+        
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff">
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+        <link rel="stylesheet" href="custom.css">
+
+    </head>
+    <body class="sidebar-visible no-js">
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "coal" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('light')
+            html.classList.add(theme);
+            var body = document.querySelector('body');
+            body.classList.remove('no-js')
+            body.classList.add('js');
+        </script>
+
+        <input type="checkbox" id="sidebar-toggle-anchor" class="hidden">
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var body = document.querySelector('body');
+            var sidebar = null;
+            var sidebar_toggle = document.getElementById("sidebar-toggle-anchor");
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            sidebar_toggle.checked = sidebar === 'visible';
+            body.classList.remove('sidebar-visible');
+            body.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="about.html">About</a></li><li class="chapter-item expanded "><a href="learn-goroutines.html" class="active">I wrote a program to learn Goroutines</a></li><li class="chapter-item expanded "><a href="ptr-in-go.html">When to use Pointers in Go</a></li><li class="chapter-item expanded "><a href="moon-rock-trip.html">I went to the Moon rock</a></li><li class="chapter-item expanded "><a href="podman-over-docker.html">Podman over Docker</a></li><li class="chapter-item expanded "><a href="multi-stage-oci.html">Multi Stage builds of OCI images</a></li><li class="chapter-item expanded "><a href="basic-regex.html">Basic Regex with Examples</a></li><li class="chapter-item expanded "><a href="osi-model-for-noobs.html">OSI Model for Noobs</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle">
+                <div class="sidebar-resize-indicator"></div>
+            </div>
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <label id="sidebar-toggle" class="icon-button" for="sidebar-toggle-anchor" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title"></h1>
+
+                    <div class="right-buttons">
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="i-wrote-a-program-to-learn-goroutines"><a class="header" href="#i-wrote-a-program-to-learn-goroutines">I wrote a program to learn Goroutines</a></h1>
+<p>I learnt Go because I love how it packages everything nicely into small binary files and doing a multi stage docker build actually does something effective. Also, it includes a http package by default.</p>
+<p>I was fascinated by download accelerators, the tool which downloads files in parts concurrently then stiches them together. To make sense of goroutines better, I decided to write one.</p>
+<p>You can find the source code <a href="https://github.com/snwzt/raccoon">here</a>.</p>
+<p>I had certain requirements:</p>
+<ul>
+<li>Stop downloads if the internet is cut off or the server doesn't respond</li>
+<li>Graceful shutdown</li>
+</ul>
+<p>As it is going to be a CLI app, we need flags.</p>
+<pre><code class="language-go">\\ main.go
+flag.StringVar(&amp;url, &quot;url&quot;, &quot;&quot;, &quot;URL of the file&quot;)
+flag.StringVar(&amp;dir, &quot;dir&quot;, os.Getenv(&quot;HOME&quot;)+&quot;/Downloads/&quot;, &quot;Directory where you want to download the file(s)&quot;)
+flag.Int64Var(&amp;connections, &quot;connections&quot;, 4, &quot;Number of concurrent connections&quot;)
+flag.BoolVar(&amp;withLog, &quot;log&quot;, false, &quot;show logs&quot;)
+flag.StringVar(&amp;urllist, &quot;multiple&quot;, &quot;&quot;,
+	&quot;Put filename of the .txt file containing the URL of the files you want to download\nURL 1\nURL 2\nURL 3\nURL n&quot;)
+</code></pre>
+<p>This function creates a download instance for the file. It requests for headers and then breaks the content length into segments by bytes. </p>
+<pre><code class="language-go">// download.go
+func NewDownloadInstance(url string, outputdir string, numParts int64, closeChan *chan os.Signal) (*Download, error) {
+	resp, err := http.Head(url)
+	if err != nil {
+		return nil, err
+	}
+
+	defer resp.Body.Close()
+
+	segmentSize := resp.ContentLength / numParts
+	segments := make([][2]int64, numParts)
+
+	for idx := range segments {
+		start := int64(idx) * segmentSize
+		end := start + segmentSize - 1
+
+		if idx == int(numParts-1) {
+			end = resp.ContentLength - 1
+		}
+
+		segments[idx] = [2]int64{start, end}
+	}
+
+	return &amp;Download{
+		URL:       url,
+		OutputDir: outputdir,
+		NumParts:  numParts,
+		Client:    &amp;http.Client{},
+		Parts:     segments,
+		closeChan: closeChan,
+	}, nil
+}
+</code></pre>
+<p>The Download function, which starts the download, creates the file. It has two channels, <code>errChan</code> for errors and <code>doneChan</code> to send message that download has been finished. It launches goroutines by parts and waits till all the goroutines finish downloading. After all the parts have been downloaded and written to the target file, it closes the channels and checks if there are any errors in the error channel, if exists, returns the first error. (As unbuffered channels work on LIFO)</p>
+<pre><code class="language-go">func (dm *Download) Download() error {
+	// ----- create file, create channels errChan and doneChan and waitgroups-----
+	for idx, segment := range dm.Parts {
+		go func(idx int, segment [2]int64) {
+			req, err := http.NewRequest(&quot;GET&quot;, dm.URL, nil)
+			if err != nil {
+				errChan &lt;- err
+				doneChan &lt;- true
+				return
+			}
+
+			resp, err := dm.Client.Do(req)
+			if err != nil {
+				// err to errChan and done
+				return
+			}
+
+            // create a 1 MB buf (buffer for writing data)
+			for {
+				select {
+				case &lt;-doneChan:
+					return
+				case &lt;-*dm.closeChan:
+					// send interrupt err to errchan and done
+					return
+				default:
+                    // Monitors the read function for time it takes to read 
+					n, err := readWithTimeout(resp, buf, 60*time.Second) 
+					if err != nil &amp;&amp; err != io.EOF {
+						// err to errChan and done
+						return
+					}
+					if n == 0 {
+						return
+					}
+					_, err = out.WriteAt(buf[:n], segment[0])
+					if err != nil {
+						// err to errChan and done
+						return
+					}
+					segment[0] += int64(n)
+				}
+			}
+            // waitgroup done
+		}(idx, segment)
+	}
+
+	// close channels
+	return &lt;-errChan
+}
+</code></pre>
+<p>To implement graceful shutdown, I added a goroutine to main function, which waits for SIGKILL or SIGINT and kills the active goroutine with error message, which deletes the files that haven't been properly downloaded.</p>
+<pre><code class="language-go">closeChan := make(chan os.Signal, 1)
+signal.Notify(closeChan, syscall.SIGINT, syscall.SIGTERM)
+
+go func() {
+	&lt;-closeChan
+	close(closeChan)
+}()
+</code></pre>
+<p>EDIT: I've made few changes in repository, looks much better now.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="about.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next prefetch" href="ptr-in-go.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="about.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next prefetch" href="ptr-in-go.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </div>
+    </body>
+</html>
